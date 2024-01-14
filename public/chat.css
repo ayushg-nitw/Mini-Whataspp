@@ -1,0 +1,86 @@
+body {
+    margin:30px;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+h2 {
+    border-radius:10px;
+    margin:auto;
+    border:1px solid rgb(5, 0, 0);
+    width:250px;
+    padding-left:23px;
+    background-color: #cfefd5fc;
+    color: #075e54;
+    font-weight: 800;
+}
+
+.chat {
+    width:350px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 5px;
+    padding: 7px;
+    position:relative;
+}
+
+.chat p {
+    margin: 0;
+    color: #128C7E;
+}
+
+.msg {
+    background-color: #DCF8C6;
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom:5px;
+}
+
+.msg p {
+    margin: 0;
+    color: #075e54;
+}
+
+@media only screen and (max-width: 600px) {
+    .chat {
+        margin: 10px;
+    }
+}
+
+#new{
+    height:25px;
+    width:100px;
+    margin:7px 0 7px 7px;
+    background-color: rgb(9, 184, 88);
+    color: white;
+    font-weight:900;
+}
+
+#edit{
+      width:fit-content;
+      background-color: rgb(9, 184, 88);
+      color: white;
+      border-radius:4px;
+      position: absolute;
+     top:8px;
+     right:80px;
+
+}
+#delete{
+    width:fit-content;
+    background-color: rgba(234, 6, 6, 0.811);
+    color: white;
+    border-radius:4px;
+    position: absolute;
+    top:8px;
+    right:20px;
+}
+
+button:hover{
+    font-size:12px;
+    box-shadow: 5px 2px 2px rgb(73, 70, 70);
+}
+
